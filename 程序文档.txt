@@ -1,0 +1,15 @@
+架构：
+GameModel单例存储游戏不同区域卡牌
+controller继承scene
+view继承Layer
+manager与service实现对象生成以及业务逻辑
+通过controller调用view、manager与service
+然后通过AppDelegate运行scene
+
+1、添加新卡牌：
+ （1）如果是特殊牌需要构建SpecialModel
+ （2）通过继承Layer构建View实现显示效果
+ （3）如果修改关卡则需要更改官咖配置
+2、添加新回调功能
+ （1）通过继承Layer构建View实现显示效果（如果需要全新显示效果）
+ （2）在service中实现新回调逻辑

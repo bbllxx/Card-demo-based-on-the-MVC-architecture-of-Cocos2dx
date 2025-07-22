@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F011E55B-84DC-3615-8F22-37C9FC908CC2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>TemplateCpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\bin\TemplateCpp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">TemplateCpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">TemplateCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\deprecated;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\platform;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\extensions;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\glfw3\include\win32;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\zlib\include;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4244;4334;4005;4820;4710;4514;4056;4996;4099</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;COCOS2DXWIN32_EXPORTS;_WIN32;CC_USE_NAVMESH=1;CC_USE_JPEG=1;CC_USE_TIFF=1;CC_USE_PNG=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;COCOS2DXWIN32_EXPORTS;_WIN32;CC_USE_NAVMESH=1;CC_USE_JPEG=1;CC_USE_TIFF=1;CC_USE_PNG=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\deprecated;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\platform;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\extensions;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\glfw3\include\win32;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\zlib\include;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\deprecated;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\platform;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\extensions;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\glfw3\include\win32;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\zlib\include;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/sqlite3/libraries/win32/sqlite3.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/win32-specific/zlib/prebuilt/zlib1.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/Resources C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;opengl32.lib;glu32.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\sqlite3\libraries\win32\sqlite3.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\unzip.lib;lib\Debug\tinyxml2.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\curl\prebuilt\win32\libcurl.lib;lib\Debug\flatbuffers.lib;lib\Debug\xxhash.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\tiff\prebuilt\win32\libtiff.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\external\bullet\prebuilt\win32\debug\libbullet.lib;lib\Debug\recast.lib;ws2_32.lib;winmm.lib;Version.lib;Iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/Debug/TemplateCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/bin/TemplateCpp/Debug/TemplateCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo -BC:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build --check-stamp-file C:/Users/Administrator.DESKTOP-V16TMRT/Desktop/Cardgamedemo/Carddemo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosBuildModules.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosCompileOptions.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosPickLibs.cmake;C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\cocos2d\cmake\Modules\CocosSelectModule.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\AppDelegate.cpp" />
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\main.cpp" />
+    <ResourceCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\game.rc" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\CloseNormal.png" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\CloseSelected.png" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\HelloWorld.png" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\fonts\arial.ttf" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\res\.gitkeep" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\AppDelegate.h" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\HelloWorldScene.h" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\main.h" />
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\ZERO_CHECK.vcxproj">
+      <Project>{8CAA167F-24F9-3D93-961E-EE5DBEA2F633}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{40D39EC7-5808-37F6-80CC-37AC62647589}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\external\flatbuffers\flatbuffers.vcxproj">
+      <Project>{61ED5FB3-3F5E-33EE-A8B5-5C33443B4034}</Project>
+      <Name>flatbuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\external\recast\recast.vcxproj">
+      <Project>{80892CDF-3CDC-3B57-9B8B-DC22C0B9CCDE}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\external\tinyxml2\tinyxml2.vcxproj">
+      <Project>{212F3594-BB64-3E9C-8923-67C370751869}</Project>
+      <Name>tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\external\unzip\unzip.vcxproj">
+      <Project>{79B9B5B5-8C97-3F24-A2A0-06BBA5847D49}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\build\engine\external\xxhash\xxhash.vcxproj">
+      <Project>{4B750536-06B6-3D33-9D4A-06DD44F6E0F1}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

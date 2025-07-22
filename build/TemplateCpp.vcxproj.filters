@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Administrator.DESKTOP-V16TMRT\Desktop\Cardgamedemo\Carddemo\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{15EA6020-D551-349D-8AC1-1C8010977C31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{6292ACD4-29B4-388F-BBC7-7DB141798067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{C8BF4972-9FB8-3F3D-91B0-AC84F6EBC58C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{997019B9-9DB7-3A64-A4B2-B0F900568745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{0FD0C88C-A371-3BE4-8693-D06B3B0983C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{4E761137-A67C-3413-AC81-40DC3C81A2DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
